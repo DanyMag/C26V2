@@ -112,6 +112,8 @@ function keyReleased() {
   }
 }
 
+
+//nueva función de colisión con los botes
 function collisionWithBoat (index) {
   for (var i = 0; i < boats.length; i++){
       if (balls[index] !== undefined && boats[i]!== undefined){
@@ -129,18 +131,5 @@ function collisionWithBoat (index) {
 }
 
 
-/*function collisionWithBoat(index) {
-  for (var i = 0; i < boats.length; i++) {
-    if (balls[index] !== undefined && boats[i] !== undefined) {
-      var collision = Matter.SAT.collides(balls[index].body, boats[i].body);
 
-      if (collision.collided) {
-        boats[i].remove(i);
-
-        Matter.World.remove(world, balls[index].body);
-        delete balls[index];
-      }
-    }
-  }
-}*/
 
