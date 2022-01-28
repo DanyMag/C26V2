@@ -1,2 +1,2 @@
-# C26V2
-Archivo para práctica del Alumno completa.
+# PRO-C25-referencia
+Código de referencia para C25
